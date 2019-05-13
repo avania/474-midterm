@@ -1,0 +1,42 @@
+body { font: 12px Arial;}
+
+path {
+    stroke-width: 2;
+    fill: none;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+
+div.tooltip {
+    position: absolute;
+    text-align: left;
+    width: 150px;
+    height: 150px;
+    padding: 5px;
+    font: 12px sans-serif;
+    background: steelblue;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+    color: white;
+}
+
+div.avg {
+    position: absolute;
+    text-align: left;
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    font: 12px sans-serif;
+    background: steelblue;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+    color: white;
+}
